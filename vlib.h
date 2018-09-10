@@ -239,7 +239,6 @@ int stackTop(sptr top) // function to get stacktop element
     if(top==NULL)
     {
                    printf("stack is empty\t");
-                   getch();
     }
     x=top->data;
     return x;
@@ -311,6 +310,27 @@ lptr insertInOrder(lptr list,litem x)// function to insert element in order
 int listEmpty(lptr list) // function to check whether list is empty or not
 {
     return (list==NULL)?1:0;
+}
+
+litem getMiddleOfList(lptr list){
+  lptr p1 = list,p2 = list;
+  while(p2 != NULL && p2->link != NULL){
+    p1 = p1 ->link;
+    p2 = p2 -> link -> link;
+  }
+  return p1 -> data;
+}
+
+lptr reverseList(lptr list) {
+  lptr prev = NULL,next = NULL,current = list;
+  while(current!=NULL){
+    next = current -> link;
+    current -> link = prev;
+    prev = current;
+    current = next;
+  }
+  list = prev;
+  return list;
 }
 
 lptr deleteNode(lptr list,litem *x) // function to delete node at the front and returns list address
@@ -658,48 +678,3 @@ int npalin(int num)
 }
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
