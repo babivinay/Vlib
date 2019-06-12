@@ -6,7 +6,7 @@ ________________________________________________________________________________
 
        This function performs linear search of an element in given array it returns index if element found and -1 if element not found
 
-   **note: here the array and searching_element has to be in type int.
+   note: here the array and searching_element has to be in type int.
 ____________________________________________________________________________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________
@@ -15,7 +15,7 @@ ________________________________________________________________________________
 
        This function performs binary search recursively and return index if element found and -1 if element not found
 
-   **note: here the array and searching_element has to be in type int.
+   note: here the array and searching_element has to be in type int.
 ____________________________________________________________________________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________
@@ -61,12 +61,11 @@ ________________________________________________________________________________
 
         4: int stackEmpty(top_address); -- function to check whether stack empty or not return 1 for empty and 0 for not empty.
   --------------------------------------------------------------------------------------------------------------------------------
-  |	**note: data type for data on the stack can be modified in the user program. default type is int, it can be midified as  |
+  |	note: data type for data on the stack can be modified in the user program. default type is int, it can be midified as  |
   |																 |
   |		typedef new_data_type sitem;											 |
   |																 |
   |	new_data_type-- user defined type like char, float .....                                                                 |
-  --------------------------------------------------------------------------------------------------------------------------------
 ____________________________________________________________________________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________
@@ -99,12 +98,11 @@ ________________________________________________________________________________
 		ex: let first be list name then we write as        first=deleteNode(first,&x); --- in x the value will be stored.
 
   ------------------------------------------------------------------------------------------------------------------------------------------
-  |		**note: data type for data on linked list can be modified in user program as follows. default type int.                     |
+  |		note: data type for data on linked list can be modified in user program as follows. default type int.                     |
   | 																	    |
   |		typedef new_data_type litem;           											    |
   |																	    |
   |		new_data_type= data type in user program like float,char,........  							    |
-  ------------------------------------------------------------------------------------------------------------------------------------------
 
 ____________________________________________________________________________________________________________________________________________________
 
