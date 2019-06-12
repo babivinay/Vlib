@@ -1,5 +1,5 @@
 # Vlib
-This library has many built in c functions.
+This library has many built in c functions. Few of them are explained here. Please check the Vlib.h file for more functions.
 ____________________________________________________________________________________________________________________________________________________
 
      int linearSearch(arrayname,length_of_array,searching_element);
