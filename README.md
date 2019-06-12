@@ -61,8 +61,10 @@ ________________________________________________________________________________
 
         4: int stackEmpty(top_address); -- function to check whether stack empty or not return 1 for empty and 0 for not empty.
   	note: data type for data on the stack can be modified in the user program. default type is int, it can be midified as 
+
 	typedef new_data_type sitem;										
- 	new_data_type-- user defined type like char, float .....                                                               
+ 	
+	new_data_type-- user defined type like char, float .....                                                               
 ____________________________________________________________________________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________
@@ -87,17 +89,19 @@ ________________________________________________________________________________
 
 	5. int countOfList(list_address); -- function that returns the number of nodes in the list
 
-	6. lptr deleteNode(list_address,addressofvariable); -- function that deletes the first node of list copy it to the variable address
-							       provided and returns modified list starting address.
+	6. lptr deleteNode(list_address,addressofvariable); -- function that deletes the first node of list copy it to the 	variable address provided and returns modified list starting address.
   	7. lptr reverseList(list_address); -- function that returns reversed list addressofvariable
+	
   	8. litem getMiddleOfList(list); --  function that return middle element of list
 
 	ex: let first be list name then we write as        
 	first=deleteNode(first,&x); --- in x the value will be stored.
 
   	------------------------------------------------------------------------------------------------------------------------------------------
-	note: data type for data on linked list can be modified in user program as follows. default type int.         	
-	typedef new_data_type litem;           										
+	note: data type for data on linked list can be modified in user program as follows. default type int.
+	
+	typedef new_data_type litem;   
+	
 	new_data_type= data type in user program like float,char,........  						
 
 ____________________________________________________________________________________________________________________________________________________
